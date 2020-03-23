@@ -1,0 +1,5 @@
+## My cli
+
+```
+npx javisantos
+```
