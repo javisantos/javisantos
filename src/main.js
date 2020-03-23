@@ -1,5 +1,5 @@
-import Vcard from './vcard'
-const myVcard = new Vcard({
+import Cli from './cli'
+const myCli = new Cli({
   Name: 'Javi Santos',
   Website: 'https://javisantos.com',
   Email: 'mail@javisantos.com',
@@ -10,6 +10,6 @@ const myVcard = new Vcard({
     PublicKeyGoldilocks: 'BCBVtwNwECotauHbJLFT8gh0odl7Zuz5WHvPuYQv15V6_vNKpzBrSXDWrmyMkOBbcZo9g-EtL3bm62f9j8z5QPFK4RsaUq-XySwba-QuNmvZxt4v2p-IxxWbAtNqOZ7F65yqww9EMpEGISGaPQ-e7bc'
   }
 })
-myVcard.print()
+myCli.print()
 // myVcard.terminal()
-myVcard.ask()
+myCli.ask()

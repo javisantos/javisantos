@@ -11,7 +11,7 @@ term.on('key', function (name, matches, data) {
   }
 })
 
-class Vcard {
+class Cli {
   constructor (me = {}) {
     this.me = me
     this.secondaryColor = 'blue'
@@ -45,7 +45,6 @@ class Vcard {
         this.ask()
         return
     }
-    term('\n')
     this.terminal()
   }
 
@@ -104,4 +103,4 @@ class Vcard {
   }
 }
 
-export default Vcard
+export default Cli
