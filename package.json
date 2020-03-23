@@ -1,0 +1,33 @@
+{
+  "name": "javisantos",
+  "version": "1.0.0",
+  "description": "Me",
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "bin": {
+    "javisantos": "./index.js"
+  },
+  "scripts": {
+    "test": "node -r esm ./test/index.js"
+  },
+  "author": "Javi Santos",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.1.0",
+    "node-emoji": "^1.10.0",
+    "supports-hyperlinks": "^2.1.0",
+    "terminal-kit": "^1.35.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.2"
+  }
+}
