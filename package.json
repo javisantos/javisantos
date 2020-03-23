@@ -1,6 +1,6 @@
 {
   "name": "javisantos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Me",
   "main": "src/index.js",
   "module": "src/main.js",
